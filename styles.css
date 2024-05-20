@@ -1,0 +1,14 @@
+/* 전체 선택자 */
+* {
+  color: gray;
+}
+
+/* 요소 선택자 */
+li {
+  color: blue;
+}
+
+ul,
+span {
+  font-size: 20px;
+}
