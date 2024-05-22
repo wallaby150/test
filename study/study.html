@@ -13,5 +13,30 @@
     <hr />
     <p>이 렇 게</p>
     <p>이&nbsp;렇&nbsp;&nbsp;&nbsp;게</p>
+    <br />
+    <form>
+      <fieldset>
+        <legend>개인정보</legend>
+        <label for="name_1">이름</label>
+        <input
+          type="text"
+          id="name_1"
+          name="name_1"
+          placeholder="고길동"
+          maxlength="10"
+          autofocus
+        />
+      </fieldset>
+    </form>
+    <label for="lang">언어</label>
+    <select name="lang" id="lang">
+      <option value="">--언어 선택--</option>
+      <option value="eng">영어</option>
+      <option value="kor">한국어</option>
+    </select>
+    <br />
+    <meter value="10" min="0" max="100" low="33" high="67" optimum="70">
+      70
+    </meter>
   </body>
 </html>
