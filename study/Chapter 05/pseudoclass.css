@@ -13,18 +13,18 @@
 
 /* 뒤따르는 모든 동생들 결합자 */
 .starter ~ li {
-	font-style: italic;
+  font-style: italic;
 }
 
 /* 뒤따르는 바로 다음 동생 결합자 */
 .starter + li {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 /* 첫 번째, 마지막 요소 가상 클래스 */
 ol li:first-child,
 ol li:last-child {
-    color: yellowgreen;
+  color: yellowgreen;
 }
 
 /* ~가 아닌 요소 가상 클래스 */

@@ -43,6 +43,8 @@ p.blue.dark {
 }
 
 /* 그룹 선택자 */
-span, .dark, #red {
+span,
+.dark,
+#red {
   text-decoration: underline;
 }
