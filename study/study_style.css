@@ -1,0 +1,16 @@
+.personal {
+  color: red;
+}
+
+#personal {
+  display: inline-block;
+  width: 20em;
+}
+
+form {
+  display: inline-block;
+}
+
+ul > li {
+  display: inline;
+}
