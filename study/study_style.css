@@ -14,3 +14,28 @@ form {
 ul > li {
   display: inline;
 }
+
+span {
+  background-color: red;
+}
+
+div {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+}
+
+#inner {
+  margin: 10px;
+  display: inline-block;
+}
+
+#box {
+  width: 200px;
+  height: 200px;
+  box-shadow: 2.8px 2.8px 0px rgba(0, 0, 0, 0.033),
+    6.7px 6.7px 0px rgba(0, 0, 0, 0.046), 12.5px 12.5px 0px rgba(0, 0, 0, 0.055),
+    22.3px 22.3px 0px rgba(0, 0, 0, 0.066),
+    41.8px 41.8px 0px rgba(0, 0, 0, 0.081), 100px 100px 0px rgba(0, 0, 0, 0.12);
+  background-color: greenyellow;
+}
