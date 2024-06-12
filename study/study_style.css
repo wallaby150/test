@@ -83,3 +83,8 @@ div {
 #fifth {
   z-index: 1;
 }
+
+button {
+  cursor: pointer;
+  opacity: 0.5;
+}
