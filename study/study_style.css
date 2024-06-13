@@ -88,3 +88,7 @@ button {
   cursor: pointer;
   opacity: 0.5;
 }
+
+#svg {
+  width: 100px;
+}
