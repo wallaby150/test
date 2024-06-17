@@ -5,17 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      :first-of-type {
-        text-decoration: underline;
+      .parent {
+        /* background-color: red; */
+        color: slateblue;
+      }
+      .parent > div {
+        color: olivedrab;
+      }
+      .parent :last-child {
+        color: revert;
+      }
+      .class-lable {
+        background-color: gray;
+        color: white;
+        padding: 0.3em;
+        border-radius: 15%;
+      }
+
+      p:not(:first-child) {
+        display: inherit;
+      }
+
+      table {
+        width: 300px;
+        height: 300px;
+      }
+
+      td {
+        padding: 0.5em 1em;
+        border: 1px solid gray;
       }
     </style>
   </head>
   <body>
-    <div>
-      <p>첫 번째 p 요소</p>
-      <p>두 번째 p 요소</p>
-      <span>첫 번째 span 요소</span>
-      <span>두 번째 span 요소</span>
+    <div class="parent">
+      <span class="class-lable">.parent</span> 부모요소
+      <div>자식 (기본)</div>
+      <div>자식 (unset)</div>
     </div>
+    <div>
+      <p><span class="class-lable">p</span> 문단 (기본)</p>
+      <p><span class="class-lable">p</span> 문단 (unset)</p>
+      <p><span class="class-lable">p</span> 문단 (unset)</p>
+    </div>
+    <table>
+      <tbody>
+        <tr>
+          <td>텍스트</td>
+          <td>
+            동해물과 백두산이 <br />
+            마르로 닳도록 <br />
+            하느님이 보우하사 <br />
+            우리나라 만세
+          </td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>
